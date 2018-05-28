@@ -1,6 +1,6 @@
 /**
  * Gulpfile for project
- * created by Sam Xu
+ * created by dh
  */
 
 // 载入外挂

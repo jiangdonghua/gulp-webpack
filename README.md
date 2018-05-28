@@ -13,8 +13,8 @@ pc端项目结构示例(gulp+webpack+bootstrap)
 |   |-- lib                           // 第三方依赖库及框架存放目录<br />
 |       |-- css                       // 第三方依赖样式目录<br />
 |       |-- js                        // 第三方依赖js文件目录<br />
-|-- views                             // 模板文件存放目录<br />
-|   |-- public                        // 公共组件模板存放目录<br />
+    |-- views                             // 模板文件存放目录<br />
+    |   |-- public                        // 公共组件模板存放目录<br />
 |-- .babelrc                          // ES6语法编译配置<br />
 |-- .jshintrc                         // JSHint配置<br />
 |-- gulpfile.js                       // 启动，打包，部署，自动化构建<br />

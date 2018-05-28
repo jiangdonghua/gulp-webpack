@@ -2,6 +2,7 @@
 pc端项目结构示例(gulp+webpack+bootstrap)
 
 # 项目目录说明
+```
 .<br />
 |-- src                               // 源码目录<br />
 |   |-- assets                        // 静态资源目录<br />
@@ -23,8 +24,10 @@ pc端项目结构示例(gulp+webpack+bootstrap)
 |-- package.json                      // 配置项目相关信息，通过执行 npm init 命令创建<br />
 |-- changelog.md                      // 版本迭代更新说明<br />
 .<br />
-
+```
 # 运行程序
+```
 安装依赖包：npm install<br />
 编译打包并运行：gulp或者npm run dev/build已经包含压缩和不压缩的版本<br />
 清除打包文件：gulp clean<br />
+```

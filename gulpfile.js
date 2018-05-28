@@ -26,7 +26,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 
-// 样式
+// 样式  return stream以保证browserSync.reload在正确的时机调用
 gulp.task('styles', function () {
     gulp.src(['./src/assets/css/*.css', './src/lib/css/*.css'])
         .pipe(gulp.dest('./dist/css'))
